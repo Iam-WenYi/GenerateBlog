@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <title>{ articletitle }</title>
+        <style>
+            @media screen and (min-width: 720px) {
+                body {
+                    width: 50%;
+                    margin-left: 25%;
+                }
+            }
+            @media screen and (max-width: 720px) {
+                body {
+                    width: 94%;
+                    margin-left: 3%;
+                }
+            }
+            #article_title {
+                margin-top: 40px;
+                margin-bottom: 70px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            { articletitle }
+        </div>
+        <div>
+            { articlecontent }
+        </div>
+    </body>
+</html>
